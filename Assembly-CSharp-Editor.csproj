@@ -123,6 +123,9 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity 5.6.0b3/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+ <Reference Include="Google.ProtocolBuffers">
+ <HintPath>C:/Users/Kristin/Desktop/UnityApps/BasicCardboardSetup/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity 5.6.0b3/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -138,9 +141,10 @@
  <Reference Include="UnityEditor.Facebook.Extensions">
  <HintPath>C:/Program Files/Unity 5.6.0b3/Editor/Data/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll</HintPath>
  </Reference>
- <Reference Include="Google.ProtocolBuffers">
- <HintPath>C:/Users/Kristin/Desktop/UnityApps/BasicCardboardSetup/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
- </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp.csproj">
+      <Project>{5A3C1C50-D51D-036F-ACE4-49A8536DA77B}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
